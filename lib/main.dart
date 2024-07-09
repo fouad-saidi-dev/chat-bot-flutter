@@ -30,10 +30,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text(
-            "Login Page",
-            style: TextStyle(color: Colors.white),
-          ),
+
           backgroundColor: Colors.redAccent,
         ),
         body: Center(
@@ -46,6 +43,8 @@ class HomePage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Image(image: AssetImage('images/login.jpg'),width: 100,height: 100,),
+                  SizedBox(height: 20),
                   TextFormField(
                     controller: loginController,
                     decoration: InputDecoration(
