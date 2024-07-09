@@ -4,6 +4,6 @@
 admin : admin 
 password : 1234
 #### Login:
-![page login]('./images/mobile1.png')
+![page login](images/mobile1.png)
 #### Chat Bot:
-![page chat bot]('./images/mobile2.png')
+![page chat bot](images/mobile2.png)
